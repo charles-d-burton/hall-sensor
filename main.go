@@ -23,7 +23,7 @@ func (plugin mqttPlugin) PluginID() string {
 }
 
 func (plugin mqttPlugin) Topic() string {
-	return "/nightmare-cat/button-pressed"
+	return "/nightmare-cat/button_pressed"
 }
 
 func (plugin mqttPlugin) ProcessMessage(msg MQTT.Message) error {
